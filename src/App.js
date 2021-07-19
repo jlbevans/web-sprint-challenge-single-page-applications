@@ -3,10 +3,7 @@ import './App.css'
 import Cards from './Cards'
 import Form from './Form'
 import { useParams,
-  Router, 
   Link, 
-  useRouteMatch,
-  useLocation,
   Switch, 
   Route } 
   from 'react-router-dom'
