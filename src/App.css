@@ -21,10 +21,24 @@ nav h1 {
   padding: .25%
 }
 
-nav a{
+.navMenu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navMenu a {
   text-decoration: none;
-  color:brown;
-  padding: 10px;
+  color: #1c5d76;
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.navMenu a:last-of-type {
+  margin-right: 0;
+}
+
+.navMenu a.active {
+  border-bottom: 1px solid #1c5d76;
 }
 
 .deliveryTitle{
@@ -43,10 +57,22 @@ nav a{
   align-items: center;
 }
 
-.mainImage button{
-  padding: 1rem;
+.mainImage a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  border: thick double white;
   background-color: none;
-  border: solid black;
+  padding: 1%;
+  margin-right: 8px;
+}
+
+.mainImage a:last-of-type {
+  margin-right: 0;
+}
+
+.mainImage a.active {
+  border-bottom: 1px solid #1c5d76;
 }
 
 .bottomSection1 {
@@ -71,3 +97,6 @@ nav a{
   border-bottom-style: dotted;
 }
 
+.toggle {
+  display: none;
+}
