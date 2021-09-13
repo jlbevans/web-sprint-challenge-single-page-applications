@@ -106,6 +106,4 @@ const toggler = document.querySelectorAll('.toggle')
 
 const clickOfTheButton = document.querySelectorAll('.mainImage');
 
-clickOfTheButton.addEventListener('click', (event) => {
-  toggler.removeClass('toggle');
-})
+
